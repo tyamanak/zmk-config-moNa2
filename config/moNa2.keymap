@@ -293,10 +293,10 @@
 
         MOUSE_AUTO {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                    &trans  &trans            &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans            &trans  &trans  &mouse_key_press  &mo 5   &mkp MB2  &to 0
-&none   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans            &trans  &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                      &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans             &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans            &trans  &trans  &macro_left_click  &mo 5   &mkp MB2  &to 0
+&none   &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans             &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                       &trans
             >;
 
             sensor-bindings = <&scroll_up_down SCRL_UP SCRL_DOWN>;
