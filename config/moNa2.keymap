@@ -284,7 +284,7 @@
         SYMBOL {
             bindings = <
 &kp ESCAPE  &alt_tab           &kp F11  &kp LC(UP_ARROW)  &none                     &kp PIPE   &kp BACKSLASH      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL
-&kp TAB     &kp LC(LS(EQUAL))  &none    &none             &none             &none   &kp TILDE  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp LEFT_BRACKET       &kp SEMICOLON
+&kp TAB     &kp LC(LS(EQUAL))  &none    &none             &none             &none   &kp TILDE  &kp DOUBLE_QUOTES  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SEMICOLON
 &trans      &trans             &trans   &trans            &trans  &trans    &none   &kp GRAVE  &kp SQT            &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp COLON
 &trans      &trans             &trans   &trans            &trans  &trans    &trans  &trans                                                                     &trans
             >;
