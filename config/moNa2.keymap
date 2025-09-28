@@ -131,6 +131,14 @@
 
             label = "BT_TO_01";
         };
+
+        BT_TO_02: BT_TO_02 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&bt BT_SEL 2>, <&macro_tap>, <&to 0>;
+
+            label = "BT_TO_02";
+        };
     };
 
     behaviors {
@@ -322,9 +330,9 @@
 
         FN_APP {
             bindings = <
-&kp LC(LS(F1))   &modm_F2         &modm_F4   &modm_F6  &modm_F8                                    &kp F1  &kp F2   &kp F3   &kp F4   &trans
-&kp LS(LC(F12))  &kp LS(LC(F13))  &modm_F10  &none     &none                    &kp C_VOLUME_UP    &kp F5  &kp F6   &kp F7   &kp F8   &none
-&trans           &trans           &none      &trans    &none     &screenshot    &kp C_VOLUME_DOWN  &kp F9  &kp F10  &kp F11  &kp F12  &none
+&kp LC(LS(F1))   &modm_F2         &modm_F4   &modm_F6  &modm_F8                                    &kp F1  &kp F2   &kp F3   &kp F4   &BT_TO_00
+&kp LS(LC(F12))  &kp LS(LC(F13))  &modm_F10  &none     &none                    &kp C_VOLUME_UP    &kp F5  &kp F6   &kp F7   &kp F8   &BT_TO_01
+&trans           &trans           &none      &trans    &none     &screenshot    &kp C_VOLUME_DOWN  &kp F9  &kp F10  &kp F11  &kp F12  &BT_TO_02
 &trans           &trans           &trans     &trans    &trans    &trans         &trans             &trans                             &trans
             >;
 
